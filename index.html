@@ -1,0 +1,1056 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+        href="https://fonts.googleapis.com/css?family=Habibi|Krub|Major+Mono+Display|Mandali|Megrim|Montserrat|Rhodium+Libre|Rosarivo&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Aldea Vikinga</title>
+</head>
+
+
+
+<body onload="mostrar()" onresize="mostrar()">
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="imagenes/logo-menu.png" width="40" height="40" class="d-inline-block align-top img-fluid"
+                alt="vikingos">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto ml-auto text-center">
+                <a class="nav-item nav-link px-4 nordic" href="#" style="color: white;">Inicio</a>
+                <a class="nav-item nav-link px-4 nordic" href="#menu-nav" style="color: white;">Menu</a>
+                <!-- <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                            Menu
+                        </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#nav-home">Alitas</a>
+                            <a class="dropdown-item" href="#nav-profile-tab">Principales</a>
+                            <a class="dropdown-item" href="#nav-contact">Botanas</a>
+                            <a class="dropdown-item" href="#nav-drink">Bebidas</a>
+                        </div>
+                    </li> -->
+                <a class="nav-item nav-link px-4 nordic" href="#divpromo" style="color: white;">Promociones</a>
+                <a class="nav-item nav-link px-4 nordic" href="eventos.html" style="color: white;">Eventos</a>
+                <a class="nav-item nav-link px-4 nordic" href="contacto.html" style="color: white;">Contacto</a>
+            </div>
+            <div class="d-flex flex-row justify-content-center ">
+                <a class="px-2" href="https://www.facebook.com/AldeaVikinga/" target="_blank">
+                    <img src="imagenes/facebook.svg" width="30" height="30" alt="">
+                </a>
+                <a class="px-2" href="https://www.instagram.com/aldeavikinga_teotihuacan/" target="_blank">
+                    <img src="imagenes/instagram.svg" width="30" height="30" alt="">
+                </a>
+                <a class="px-2" href="https://www.youtube.com/channel/UChbG_z_w5tJ7AEBUrj7Iv-Q" target="_blank">
+                    <img src="imagenes/youtube.svg" width="30" height="30" alt="">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center align-items-center" style="height: 100vh;" id="circulo">
+        <div class="col-8">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hide" id="mainBody">
+
+        <div id="whats" class="col-1 d-inline-flex fixed-bottom ml-auto justify-content-end align-items-end"
+            style="height: 70px;">
+            <a id="toolbtn" class="p-3" href="https://api.whatsapp.com/send?phone=525521727524" target="_blank"
+                style="color: white;" data-toggle="tooltip" data-html="true" title="¡Servicio a <br> domicilio!"
+                data-placement="top">
+                <img src="imagenes/whatsapp.svg" width="45px" height="45px" alt="">
+            </a>
+        </div>
+
+
+
+        <div id="home" class="container-fluid d-flex flex-column justify-content-center align-items-center"
+            style="height: 100vh; visibility: hidden;">
+            <div class="row">
+                <div class="col-lg-12 text-center ">
+                    <!-- <h1 style="color: white;">((logo))</h1>
+                <h1 class="display-4 home-h1" style="color: white;">ALDEA VIKINGA</h1>
+                <h3 style="color: white;">WINGS &nbsp|&nbsp ROCK &nbsp|&nbsp BEER</h3> -->
+                    <img src="imagenes/logo-menu.png" class="img-fluid" width="350px" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="foro1" class="container-fluid foro-background" style="height: 350px;">
+            <!-- <img src="imagenes/b1.jpg" alt="foro" style="background-attachment: fixed;"> -->
+        </div>
+
+        <!-- <div id="foro2" class="container-fluid text-center" style="display: none;">
+        <img src="imagenes/b1.jpg" class="img-fluid" width="100%" alt="foro">
+    </div> -->
+        <br>
+        <div class="container text-center d-flex justify-content-center">
+            <div class="col-md-8 col-12">
+                <h5 style="font-size: medium;">Somos un espacio alternativo en el que se fusionan dos conceptos:
+                    Restaurante-Bar
+                    y Foro
+                    Multicultural, apoyamos a la escena nacional emergente de géneros y subgéneros del metal y rock.
+                </h5>
+                <!-- <br><br>
+            <h3 style="color: white;">¿TIENES UNA BANDA?</h3> -->
+                <br>
+                <a class="btn btn-outline-info" style="width: 60%;" href="contacto.html" role="button">Más
+                    Información.</a>
+            </div>
+        </div>
+        <br><br>
+        <!-- <div class="container-fluid">
+       <div class="col-12">
+        <img src="imagenes/b1.jpg" class="img-fluid" width="100%" style="background-attachment: fixed;" alt="">
+       </div>
+    </div> -->
+
+        <div id="tituloMenu" class="container text-center">
+            <h1 class="nordic amarillo home-h1">NUESTRO MENU</h1>
+            <h5 style="font-size: medium;">Disfruta de nuestras alitas y costillas, acompañadas de la deliciosa
+                variedad
+                de
+                salsas
+                que tenemos para ofrecerte.</h5 st>
+            <br>
+        </div>
+
+        <div id="menu-nav" class="container-fluid" style="visibility: hidden;">
+            <nav class="px-3">
+                <div class="row nav nav-tabs borde" id="nav-tab" role="tablist"
+                    style="background-color: rgba(32, 32, 32, 0.65);">
+
+                    <a class="col-lg-3 col-6 nav-item nav-link active d-flex flex-column" id="nav-home-tab"
+                        data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                        <span><img src="imagenes/alitas-de-pollo.svg" class="img-fluid" width="50px"
+                                alt="Iconos diseñados por Freepik de www.flaticon.es"></span>
+                        ALIMENTOS
+                    </a>
+
+                    <a class="col-lg-3 col-6 nav-item nav-link d-flex flex-column" id="nav-profile-tab"
+                        data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                        aria-selected="false">
+                        <span><img src="imagenes/comidaEx.svg" class="img-fluid" width="50px"
+                                alt="Iconos diseñados por Freepik de www.flaticon.es"></span>
+                        EXCLUSIVOS
+                    </a>
+                    <a class="col-lg-3 col-6 nav-item nav-link d-flex flex-column" id="nav-contact-tab"
+                        data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+                        aria-selected="false">
+                        <span><img src="imagenes/papas-fritas.svg" class="img-fluid" width="50px"
+                                alt="Iconos diseñados por Freepik de www.flaticon.es"></span>
+                        BOTANAS
+                    </a>
+                    <a class="col-lg-3 col-6 nav-item nav-link d-flex flex-column" id="nav-drink-tab" data-toggle="tab"
+                        href="#nav-drink" role="tab" aria-controls="nav-drink" aria-selected="false">
+                        <span><img src="imagenes/aplausos.svg" class="img-fluid" width="50px"
+                                alt="Iconos diseñados por dDara de www.flaticon.es"></span>
+                        BEBIDAS PRINCIPALES
+                    </a>
+                </div>
+            </nav>
+            <div class="tab-content px-3" id="nav-tabContent">
+                <!-- ALIMENTOS  -->
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/alitas dioses.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Alitas</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Deliciosas alitas de pollo bañadas con cualquiera de
+                                                        nuestras
+                                                        salsas
+                                                        (a elegir), acompañadas de adereza Ranch y Chipotle.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$70</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/CARTEL COSTILLAS (1).jpg"
+                                            class="card-img img-fluid rounded-circle" alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Costillas</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Costillas de cerdo bañadas con cualquiera de nuestras salsas
+                                                        (a elegir), acompañadas de papas a la francesa.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$70</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/arrachera.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Viking Burguer</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Hamburguesa hecha con carne de Arrachera acompañada con papas
+                                                        a
+                                                        la
+                                                        francesa.
+                                                    </p>
+                                                    <p class="card-text" style=" line-height:15px;"><small
+                                                            class="text-muted">
+                                                            Contiene: Jitomate, Cebolla, Lechuga, Jamón, Queso
+                                                            amarillo,
+                                                            Queso Manchego y Tocino.
+                                                        </small>
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$75</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/vikingBurguer.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Hamburguesa Junior
+                                            </h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Hamburguesa hecha con carne de res o pollo acompañada con
+                                                        papas a
+                                                        la
+                                                        francesa.
+                                                    </p>
+                                                    <p class="card-text" style=" line-height:15px;"><small
+                                                            class="text-muted">
+                                                            Contiene: Jitomate, Cebolla, Lechuga, Jamón, Queso
+                                                            amarillo
+                                                            y
+                                                            Queso Manchego.
+                                                        </small>
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$60</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/burrito.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Burritos</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Delisiosa tortilla de harina con Carne molida o Bisteck.
+                                                    </p>
+                                                    <p class="card-text" style=" line-height:15px;"><small
+                                                            class="text-muted">
+                                                            Contiene: Frijoles, Pico de gallo, Guacamole y Nuestra
+                                                            Salsa secreta.
+                                                        </small>
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$60</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/ensalada.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Ensalada</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañada con boneles de puerco.
+                                                    </p>
+                                                    <p class="card-text" style=" line-height:15px;"><small
+                                                            class="text-muted">
+                                                            Preparada con Lechuga, Zanahoria, Pepino, Apio y Jicama.
+                                                        </small>
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$70</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/hotDog.webp" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Hot Dog</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Salchicha de carne de Res de aproximadamente 20cm,
+                                                        acompañada
+                                                        con
+                                                        papas.
+                                                    </p>
+
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$75</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="" class=" col-11 d-inline-flex ml-auto justify-content-end align-items-end"
+                        style="height: 20px;">
+                        <a id="" class="floating p-3" href="#menu-nav" style="color: white;">
+                            <img src="imagenes/up.svg" width="20px" height="20px" alt="">
+                        </a>
+                    </div> -->
+                </div>
+                <!-- EXCLUSIVOS -->
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/nachos.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Nachos vikingos</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Totopos con Queso fundido, Frijoles, Pico de Gallo, Carne
+                                                        molida,
+                                                        Guacamole y Nuestra salsa secreta.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$60</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/platoBotanero20%.png" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Plato botanero</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Nachos, Papas a la francesa, Alitas (salsa a elegir), Dedos
+                                                        de
+                                                        queso
+                                                        y Aros de cebolla.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$180</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/alitas dioses.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Alitas xoconostle
+                                            </h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañadas con aderezo, apio, zanahoria y jicama.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$70</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="" class=" col-11 d-inline-flex ml-auto justify-content-end align-items-end"
+                        style="height: 20px;">
+                        <a id="" class="floating p-3" href="#menu-nav" style="color: white;">
+                            <img src="imagenes/up.svg" width="20px" height="20px" alt="">
+                        </a>
+                    </div> -->
+                </div>
+                <!-- BOTANAS -->
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/boneless.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Boneless</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañado de papas a la francesa y salsa a elegir.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$70</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/nuggets.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Nuggets</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañado de Papas a la francesa y salsa a elegir.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$70</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/papaF.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Papas a la Francesa
+                                            </h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañadas con Queso amarillo.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$45</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/arosCebolla.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Aros de Cebolla</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañados con aderezo de Chipotle o aderezo Ranch.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$55</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/botanas y snack.jpg"
+                                            class="card-img img-fluid rounded-circle" alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Dedos de Queso</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañados con aderezo de Chipotle o aderezo Ranch.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$55</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/gajo.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Papas Gajo</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Acompañadas con Queso amarillo.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$55</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="" class=" col-11 d-inline-flex ml-auto justify-content-end align-items-end"
+                        style="height: 20px;">
+                        <a id="" class="floating p-3" href="#menu-nav" style="color: white;">
+                            <img src="imagenes/up.svg" width="20px" height="20px" alt="">
+                        </a>
+                    </div> -->
+                </div>
+                <!-- BEBIDAS -->
+                <div class="tab-pane fade" id="nav-drink" role="tabpanel" aria-labelledby="nav-drink-tab">
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <div class="card ">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/post tarros de cerveza.jpg"
+                                            class="card-img img-fluid rounded-circle" alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Heineken</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-4 col-md-3">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Cerveza de Barril.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-4 ">
+                                                    <h3 class="beer-price" name="beer">TARRO</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1LT $85</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1/2LT $55</h3>
+                                                </div>
+                                                <div class="col-4 col-md-5">
+                                                    <h3 class="beer-price text-truncate" name="beer">MICHELADA</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1LT $100</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1/2LT $65</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card ">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/CLARA U OBSCURA.jpg"
+                                            class="card-img img-fluid rounded-circle" alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">XX</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-4 col-md-3">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Cerveza de Barril, Lager o Ambar.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-4 ">
+                                                    <h3 class="beer-price" name="beer">TARRO</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1LT $65</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1/2LT $45</h3>
+                                                </div>
+                                                <div class="col-4 col-md-5">
+                                                    <h3 class="beer-price text-truncate" name="beer">MICHELADA</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1LT $80</h3>
+                                                    <h3 class="megrim beer-price" name="beer">1/2LT $55</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/refrescoDeCola.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Refresco</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Coca-Cola, Sprite, Fanta...
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$20</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/limonada.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">
+                                                Limonada/<br>Naranjada
+                                            </h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        Con agua Mineral o Natural.
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$40</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/coffe2.jpg" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name">Café Americano</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+                                                        <!---text-->
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price">$30</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="card p-2">
+                                <div class="row no-gutters justify-content-center align-items-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="imagenes/imagen-muestra.png" class="card-img img-fluid rounded-circle"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-12 col-md-10">
+                                        <div class="card-body">
+                                            <h3 class="card-title menu-h3" name="product-name"> Pregunta por nuestra
+                                                Coctelería.</h3>
+                                            <div class="row justify-content-center align-items-center">
+                                                <div class="col-8 col-md-9">
+                                                    <p class="card-text" style="font-size: small;">
+
+                                                    </p>
+                                                </div>
+                                                <div class="col-4 col-md-3">
+                                                    <h3 class="megrim" name="product-price"></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="" class=" col-11 d-inline-flex ml-auto justify-content-end align-items-end" style="height: 20px;">
+                <a id="" class="floating p-3" href="#menu-nav" style="color: white;">
+                    <img src="imagenes/up.svg" width="20px" height="20px" alt="">
+                </a>
+            </div>
+        </div>
+        
+        <br>
+        <div class="f1" style="height: 300px;">
+        </div>
+
+        <br id="divpromo">
+
+        <div class="container-fluid justify-content-center align-items-center p-5">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-12 col-md-7">
+                    <div class="tab-content justify-content-center align-items-center " id="nav-promo"
+                        style="visibility: hidden;">
+                        <h1 class="nordic amarillo home-h1">DIAS VIKINGOS</h1>
+                        <div class="tab-pane fade show active" id="nav-promoMartes" role="tabpanel"
+                            aria-labelledby="nav-promoMartes-tab">
+
+                            <!--Martes / Miercoles-->
+                            <div class="row">
+                                <div class="col-6 ">
+                                    <img src="imagenes/martes-3.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-6 ">
+                                    <img src="imagenes/miercoles-4.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-promoJueves" role="tabpanel"
+                            aria-labelledby="nav-promoJueves-tab">
+                            <!-- Jueves / Viernes -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="imagenes/jueves-5.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <img src="imagenes/viernes-1.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-promoSabado" role="tabpanel"
+                            aria-labelledby="nav-promoSabado-tab">
+                            <!-- Sabado / Domingo -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="imagenes/sabado-2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <img src="imagenes/domingo-6.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <nav>
+                        <div class="row justify-content-center align-items-center nav nav-tabs" id="nav-tab-promo"
+                            role="tablist" style="border-bottom: transparent;">
+                            <a class="nav-item nav-link active" id="nav-promoMartes-tab" data-toggle="tab"
+                                href="#nav-promoMartes" role="tab" aria-controls="nav-promoMartes"
+                                aria-selected="true">1</a>
+                            <a class="nav-item nav-link" id="nav-promoJueves-tab" data-toggle="tab"
+                                href="#nav-promoJueves" role="tab" aria-controls="nav-promoJueves"
+                                aria-selected="false">2</a>
+                            <a class="nav-item nav-link" id="nav-promoSabado-tab" data-toggle="tab"
+                                href="#nav-promoSabado" role="tab" aria-controls="nav-promoSabado"
+                                aria-selected="false">3</a>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="col-12 col-md-5 py-3 text-center">
+                    <div class="container-fluid">
+                        <h5 class="home-h1 megrim" name="product-price">
+                            Celebra tu cumpleños en Aldea Vikinga.
+                        </h5>
+                        <p>Ven a festejar con nosotros y te regalamos una orden de alitas y
+                            medio litro de cerveza.
+                        </p>
+                        <p class="amarillo ">* Promocion valida presentando tu INE.</p>
+                        <!-- <span><img src="imagenes/torta-de-cumpleanos.svg" width="50px" class="img-fluid"
+                            alt="Iconos diseñados por Freepik from www.flaticon.es"></span> -->
+                        <!-- <img src="imagenes/backgroundTarro.jpg" class="img-fluid" width="80%" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        window.addEventListener('load', () => {
+
+            // setTimeout(carga, 3000);
+            carga();
+            function carga() {
+
+                document.getElementById('circulo').className = 'hide';
+                document.getElementById('mainBody').className = '';
+                $('#toolbtn').tooltip('show');
+            }
+
+        });
+
+        /*  function animacion(tid) {
+             $(window).scroll(function () {
+                 $(tid).each(function () {
+                     var imagePos = $(this).offset().top;
+
+                     var topOfWindow = $(window).scrollTop();
+                     if (imagePos < topOfWindow + 400) {
+                         $(this).addClass("fadeIn");
+                     }
+                 });
+             });
+
+         }
+         animacion('#pageA'); */
+
+
+    </script>
+    <script>
+        /*         $(window).scroll(function () {
+                    $('#home').each(function () {
+                        var imagePos = $(this).offset().top;
+        
+                        var topOfWindow = $(window).scrollTop();
+                        if (imagePos < topOfWindow + 400) {
+                            $(this).addClass("fadeIn");
+                        }
+                    });
+                }); */
+
+        function mostrar() {
+            var home = document.getElementById('home');
+            home.classList.add('fadeIn');
+
+            function animacion(tid, efecto) {
+                $(window).scroll(function () {
+                    $(tid).each(function () {
+                        var imagePos = $(this).offset().top;
+
+                        var topOfWindow = $(window).scrollTop();
+                        if (imagePos < topOfWindow + 400) {
+                            $(this).addClass(efecto);
+                        }
+                    });
+                });
+            }
+
+            animacion('#menu-nav', 'slideUp');
+            animacion('#nav-promo', 'slideUp');
+
+            var price = document.getElementsByName('product-price');
+            var name = document.getElementsByName('product-name');
+            var beer = document.getElementsByName('beer');
+
+            var ancho = screen.width;
+            if (ancho < 768) {
+
+
+
+                for (var item of price) {
+                    item.classList.add('size-price-responsive');
+                    item.classList.remove('size-h1');
+                }
+                for (var item of name) {
+                    item.classList.add('menu-h3-responsive');
+                    item.classList.remove('menu-h3');
+                }
+                for (var item of beer) {
+                    item.classList.add('beer-price-responsive');
+                    item.classList.remove('beer-price');
+                }
+
+            } else {
+
+
+
+                for (var item of price) {
+                    item.classList.remove('size-price-responsive');
+                    item.classList.add('size-h1');
+                }
+                for (var item of name) {
+                    item.classList.remove('menu-h3-responsive');
+                    item.classList.add('menu-h3');
+                }
+                for (var item of beer) {
+                    item.classList.remove('beer-price-responsive');
+                    item.classList.add('beer-price');
+                }
+            }
+
+        }
+    </script>
+    <!--Iconos-->
+    <!--wing <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+    <!--ham <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+    <!--pap <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+    <!--drink <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/ddara" title="dDara">dDara</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+    <!--what <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+    <!--cumple <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+    <!--facebook <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+    <!--instagram <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+    <!--youtube <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+</body>
+
+</html>

@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.f1{
+  background-image: url('../imagenes/2040%.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*
+font-family: 'Habibi', serif;
+font-family: 'Krub', sans-serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Mandali', sans-serif;
+font-family: 'Megrim', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rhodium Libre', serif;
+font-family: 'Rosarivo', serif;
+
+*/
+
+.jueves{
+    background-image: url('../imagenes/jueves-5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+@font-face {
+    font-family: "Nordic";
+    src: url("../fonts/nordic/NordicAlternativeRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+    
+/* h1{
+     font-family: 'Major Mono Display', monospace; 
+     font-family: 'Megrim', cursive; 
+    font-family: 'Nordic';
+     font-size: 5rem;
+    font-weight: 200;
+    line-height: 1.2; 
+    color: rgb(255, 203, 30); 
+} */
+
+.amarillo{
+    color: rgb(255, 203, 30);
+}
+
+.home-h1{
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+}
+
+
+.menu-h3{
+    font-family: 'Megrim', cursive;
+    /* text-transform: uppercase; */
+    /* font-family: 'Nordic'; */
+    letter-spacing: 0.2em;
+    font-size: 1.7rem;
+    color: rgb(255, 203, 30);
+}
+
+.menu-h3-responsive{
+    color: rgb(255, 203, 30);
+    font-family: 'Megrim';
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+    
+}
+.megrim{
+    font-family: 'Megrim', cursive;
+}
+
+.nordic{
+    font-family: 'Nordic';
+}
+
+
+
+/* .parallax2{
+    background-image: url('../imagenes/voladora.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment:fixed;
+    width: 80%;
+    height:auto;
+} */
+
+.parallax-responsive{
+    background-image: url('../imagenes/cartel-ok.png');
+    background-position: 50% 50% ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    width: 90%;
+    height:80vh;
+}
+
+/* .parallax-responsive2{
+    background-image: url('../imagenes/voladora.jpg');
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:80vh;
+} */
+
+
+.size-h1{
+    /*price*/
+    text-align: center !important;
+    font-size: 2rem;
+}
+.size-price-responsive{
+    text-align: center !important;
+    font-size: 1.8rem;
+}
+
+.beer-price{
+    text-align: center !important;
+    font-size: 1.2rem;
+}
+
+.beer-price-responsive{
+    text-align: center !important;
+    font-size: 1rem;
+}
+
+h2,h3,h4,h5{
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(36, 35, 35, 0.418);
+}
+p{
+    color: white;
+    /* line-height:15px; */
+    /* background-color: black; */
+}
+.borde{border: 1px black solid;}
+.fondo-negro{background-color: black;}
+
+ body{
+    /* background-image: url('../imagenes/salon.jpg'); */
+    /* background-image: url('../imagenes/jude-infantini.jpg'); */
+    /* background-image: url('../imagenes/background4.jpg'); */
+    /* background-image: url('../imagenes/fondo.jpg'); */
+    background-image: url('../imagenes/BackGround2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+} 
+
+
+.foro-background{
+    max-width: 100%;
+    background-image: url('../imagenes/lonaAldea20%.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+/*****************/
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  .parallax-container .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .parallax-container .parallax img {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    -webkit-perspective: 500px;
+            perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+  }
+  
+  .carousel.carousel-slider {
+    top: 0;
+    left: 0;
+  }
+  
+  .carousel.carousel-slider .carousel-fixed-item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 1;
+  }
+  
+  .carousel.carousel-slider .carousel-fixed-item.with-indicators {
+    bottom: 68px;
+  }
+  
+  .carousel.carousel-slider .carousel-item {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .carousel.carousel-slider .carousel-item h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  
+  .carousel.carousel-slider .carousel-item p {
+    font-size: 15px;
+  }
+  
+  .carousel .carousel-item {
+    visibility: hidden;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .carousel .carousel-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .carousel .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  
+  .carousel .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%;
+  }
+  
+  .carousel .indicators .indicator-item.active {
+    background-color: #fff;
+  }
+  
+  .carousel.scrolling .carousel-item .materialboxed,
+  .carousel .carousel-item:not(.active) .materialboxed {
+    pointer-events: none;
+  }
+  .hide {
+    display: none !important;
+  }
+
+  .radio{
+    border-radius: 50px;
+  }
+
+  .link{
+    pointer-events: none;
+    cursor: default;
+  }
