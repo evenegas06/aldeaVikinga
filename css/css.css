@@ -4,7 +4,7 @@
 
 }
 .f1{
-  background-image: url('../imagenes/2040%.jpg');
+  background-image: url('../imagenes/2040.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,7 +165,7 @@ p{
 
 .foro-background{
     max-width: 100%;
-    background-image: url('../imagenes/lonaAldea20%.jpg');
+    background-image: url('../imagenes/lonaAldea20.jpg');
     background-position: center ;
     background-repeat: no-repeat;
     background-size: contain;
