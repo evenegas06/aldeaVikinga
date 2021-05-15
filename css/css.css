@@ -165,7 +165,11 @@ p{
 
 .foro-background{
     max-width: 100%;
+<<<<<<< HEAD
     background-image: url('../imagenes/lonaAldea20.jpg');
+=======
+    background-image: url(https://venegasr.com/imagenes/lonaAldea20.jpg);
+>>>>>>> ccc2e7831389d01b97cd184f47148acd4de96bdc
     background-position: center ;
     background-repeat: no-repeat;
     background-size: contain;
